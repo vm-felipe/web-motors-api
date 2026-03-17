@@ -1,0 +1,37 @@
+# Dependências
+venv/
+.venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Sessão e autenticação — NUNCA commitar
+cookies.json
+cookie.txt
+*.har
+
+# Scripts de desenvolvimento interno
+test_raw.py
+wm_extractor.py
+
+# Arquivos de depuração
+falha_captura.png
+*.png
+*.jpg
+*.jpeg
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente
+.env
+.env.*
